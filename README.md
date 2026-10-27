@@ -131,3 +131,5 @@ doubt-board/
 - Doubt sessions per lecture (e.g. "Lecture 7") with export to PDF
 - AI-suggested grouping of similar doubts
 - Rate limiting and profanity filtering for posts
+
+**Drive Link for demo video : [drive.google.com/file/d/1W8Z18QNFd_eIXZOvIk174Wp1anq72NZZ/view?usp=sharing](https://drive.google.com/file/d/1W8Z18QNFd_eIXZOvIk174Wp1anq72NZZ/view?usp=sharing)**
