@@ -1,0 +1,14 @@
+# Optional Render Blueprint: one web service that builds the React app and serves it from Express.
+services:
+  - type: web
+    name: doubt-board
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true

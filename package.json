@@ -1,0 +1,16 @@
+{
+  "name": "doubt-board",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live, anonymous doubt board for classrooms (MERN + Socket.io)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm install --prefix server && npm install --prefix client --include=dev && npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
